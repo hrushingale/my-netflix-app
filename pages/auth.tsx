@@ -48,7 +48,7 @@ const Auth = () =>{
         try{
             console.log("Sending request with data:", { email, name, password });
 
-            await axios.post('https://my-netflix-app-indol.vercel.app/api/register',{
+            await axios.post('/api/register',{
                 email,
                 name,
                 password
